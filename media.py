@@ -1,6 +1,7 @@
 import webbrowser
 
 
+# Store required movie info
 class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_url):
         self.title = movie_title
@@ -8,5 +9,6 @@ class Movie():
         self.poster_image = poster_image
         self.trailer_url = trailer_url
 
+    # Play movie trailer
     def play_trailer(self):
         webbrowser.open(self.trailer_url)
