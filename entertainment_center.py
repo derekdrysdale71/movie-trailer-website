@@ -17,7 +17,7 @@ lord_rings = media.Movie(
 )
 
 pirates = media.Movie(
-    "The Pirates of the Caribean",
+    "The Pirates of the Caribbean",
     "Prepare to be blown out of the water.",
     "https://images-na.ssl-images-amazon.com/images/I/51fX40gGdXL.jpg",
     "https://www.youtube.com/watch?v=G7z74BvLWUg"
