@@ -43,6 +43,9 @@ main_page_head = '''
             background-color: #EEE;
             cursor: pointer;
         }
+        .movie-tile img {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
         .poster {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
@@ -126,7 +129,7 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img class="poster" src="{poster_image_url}" width="220" height="342">
+    <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
     <p>{movie_storyline}</p>
 </div>
